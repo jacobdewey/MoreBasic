@@ -1,5 +1,5 @@
 {
-    "name": "morebasic",
+    "name": "more Basic",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -8,11 +8,15 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "MoreBasic.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
