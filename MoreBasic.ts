@@ -1,9 +1,7 @@
 //% weight=100 color=#333333 icon="\uf100"
 namespace moreBasic{
-//% block
-export function when(y: boolean, x: () => void) {
-
-
+//% blockID= when @h
+export function when(x: () => void, h: boolean) {
 
 
 
@@ -15,11 +13,10 @@ export function when(y: boolean, x: () => void) {
 basic.forever(function () {
     
 
-    if (y){
+    if (h){
         x
     }
 })
-
 
 
 
