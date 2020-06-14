@@ -34,10 +34,21 @@ return (a || b) && (!(a && b))
 
 
 }
+//% block
+export function nand(a: boolean, b: boolean): boolean{
+return (!(a && b))
 
 
 
+}
+//% block
+export function nor(a: boolean, b: boolean): boolean{
 
+return (!(a || b))
+
+
+
+}
 
 
 
