@@ -1,5 +1,6 @@
 //% weight=100 color=#333333 icon="\uf100"
 namespace moreBasic{
+//% block
 //% blockId= when @h
 export function when(x: () => void, h: boolean) {
 
