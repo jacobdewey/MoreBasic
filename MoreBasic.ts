@@ -10,18 +10,19 @@ export function when(y: boolean, x: () => void) {
 
 
 
-while(true) {
 
+
+basic.forever(function () {
+    
 
     if (y){
         x
     }
+})
 
 
 
 
-
-}
 
 
 
